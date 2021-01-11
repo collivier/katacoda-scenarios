@@ -1,0 +1,11 @@
+{
+  "title": "XtestingCI in a nutshell",
+  "description": "Learn how to deploy your Continuous Integration toolchains",
+  "courses": [
+    {
+      "course_id": "firstci",
+      "title": "Deploy your first Continuous Integration toolchain",
+      "description": ""
+    }
+  ]
+}

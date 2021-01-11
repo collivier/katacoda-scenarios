@@ -1,0 +1,42 @@
+{
+  "title": "Deploy your first Continuous Integration toolchain",
+  "description": "",
+  "difficulty": "Beginner",
+  "time": "15 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Xtesting and XtestingCI in a nutshell",
+        "text": "nutshell.md"
+      },
+      {
+        "title": "Installation",
+        "text": "installation.md"
+      },
+      {
+        "title": "Deployment",
+        "text": "deployment.md"
+      },
+      {
+        "title": "Play",
+        "text": "play.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+      "showdashboard": true,
+      "dashboards": [
+          {"name": "Jenkins", "port": 8080}
+        ],
+      "uilayout": "terminal-iframe"
+  },
+  "backend": {
+    "imageid": "ubuntu:2004"
+  }
+}
