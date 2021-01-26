@@ -1,0 +1,42 @@
+{
+  "title": "Run CNTT Kubernetes Reference Conformance",
+  "description": "",
+  "difficulty": "Beginner",
+  "time": "20 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "CNTT and XtestingCI in a nutshell",
+        "text": "nutshell.md"
+      },
+      {
+        "title": "Deploy Kubernetes and XtestingCI",
+        "text": "deploy.md"
+      },
+      {
+        "title": "Run CNTT RC2 playbook",
+        "text": "run.md"
+      },
+      {
+        "title": "Trigger CNTT RC2",
+        "text": "play.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+      "showdashboard": true,
+      "dashboards": [
+          {"name": "Jenkins", "port": 8080}
+        ],
+      "uilayout": "terminal-iframe"
+  },
+  "backend": {
+    "imageid": "kubernetes-cluster-running:1.18"
+  }
+}

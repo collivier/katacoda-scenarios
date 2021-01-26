@@ -6,6 +6,11 @@
       "course_id": "firstci",
       "title": "Deploy your first Continuous Integration toolchain",
       "description": ""
+    },
+    {
+      "course_id": "cnttrc2",
+      "title": "Run CNTT Kubernetes Based Reference Conformance",
+      "description": ""
     }
   ]
 }
