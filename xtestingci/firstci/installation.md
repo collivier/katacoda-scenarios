@@ -12,5 +12,5 @@ XtestingCI and all the mandatory Ansible collections.
 
 ```
 ansible-galaxy install collivier.xtesting
-ansible-galaxy collection install ansible.posix community.general community.grafana community.kubernetes
+ansible-galaxy collection install ansible.posix community.general community.grafana community.kubernetes community.docker community.postgresql
 ```{{execute}}
