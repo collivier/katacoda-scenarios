@@ -1,0 +1,34 @@
+{
+  "title": "Deploy Jenkins in your own Kubernetes cluster",
+  "description": "",
+  "difficulty": "Intermediate",
+  "time": "20",
+  "details": {
+    "steps": [
+      {
+        "title": "Deploy Kubernetes and XtestingCI",
+        "text": "deploy.md"
+      },
+      {
+        "title": "Run the playbook",
+        "text": "run.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+      "showdashboard": true,
+      "dashboards": [
+          {"name": "Jenkins", "port": 30080}
+        ],
+      "uilayout": "terminal-iframe"
+  },
+  "backend": {
+    "imageid": "kubernetes-cluster-running:1.18"
+  }
+}

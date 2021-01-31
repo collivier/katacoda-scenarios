@@ -11,6 +11,11 @@
       "course_id": "cnttrc2",
       "title": "Run CNTT Kubernetes Based Reference Conformance",
       "description": ""
+    },
+    {
+      "course_id": "cluster",
+      "title": "Deploy Jenkins in your own cluster (under construction)",
+      "description": ""
     }
   ]
 }
