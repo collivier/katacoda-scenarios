@@ -16,6 +16,11 @@
       "course_id": "cluster",
       "title": "Deploy Jenkins in your own cluster (under construction)",
       "description": ""
+    },
+    {
+      "course_id": "fromscratch",
+      "title": "Deploy your own CI/CD toolchain from scratch (under construction)",
+      "description": ""
     }
   ]
 }
