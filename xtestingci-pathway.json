@@ -21,6 +21,11 @@
       "course_id": "fromscratch",
       "title": "Deploy your own CI/CD toolchain from scratch (under construction)",
       "description": ""
+    },
+    {
+      "course_id": "firstdriver",
+      "title": "Write your own Xtesting driver (under construction)",
+      "description": ""
     }
   ]
 }
