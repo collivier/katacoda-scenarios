@@ -1,3 +1,10 @@
+A public key is currently expired in all Katacoda images and then you do first
+update this apt key before anything else.
+
+```
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+```{{execute}}
+
 XtestingCI is an Ansible role published in Ansible Galaxy and then asks for
 Ansible already available in your environment. It must be executed by a user
 part of the sudo group (or by root as in Katacoda) due to a couple of admin

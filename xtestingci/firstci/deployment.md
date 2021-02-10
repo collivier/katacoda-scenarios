@@ -9,7 +9,7 @@ For the purpose of this scenario, you simply download the Xtesting sample list:
 git clone https://gerrit.opnfv.org/gerrit/functest-xtesting functest-xtesting-src
 ```{{execute}}
 
-In this scenario, you do precise both test database and test artifact urls to
+Katacoda forces us to precise both test database and test artifact urls to
 make them reachable from your device:
 
 ```
