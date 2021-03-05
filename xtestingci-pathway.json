@@ -14,7 +14,7 @@
     },
     {
       "course_id": "cluster",
-      "title": "Deploy Jenkins in your own cluster (under construction)",
+      "title": "Deploy the toolchain in your Kubernetes cluster",
       "description": ""
     },
     {

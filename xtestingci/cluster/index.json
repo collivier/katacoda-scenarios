@@ -1,10 +1,14 @@
 {
-  "title": "Deploy Jenkins in your own Kubernetes cluster",
+  "title": "Deploy the toolchain in your Kubernetes cluster",
   "description": "",
   "difficulty": "Intermediate",
   "time": "20",
   "details": {
     "steps": [
+      {
+        "title": "Deployment models in a nutshell",
+        "text": "nutshell.md"
+      },
       {
         "title": "Deploy Kubernetes and XtestingCI",
         "text": "deploy.md"
@@ -12,6 +16,10 @@
       {
         "title": "Run the playbook",
         "text": "run.md"
+      },
+      {
+        "title": "Play",
+        "text": "play.md"
       }
     ],
     "intro": {

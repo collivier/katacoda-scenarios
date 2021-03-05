@@ -1,20 +1,21 @@
-XtestingCI leverages the common test case execution proposed by Xtesting.
-Thanks to a simple test case list, this tool deploys anywhere plug-and-play
-Continuous Integration toolchains in a few commands.
-
-For the purpose of this scenario, you simply download the Xtesting sample list:
+For the purpose of this scenario, you download the Xtesting sample list again:
 
 ```
 git clone https://gerrit.opnfv.org/gerrit/functest-xtesting functest-xtesting-src
 cd functest-xtesting-src
 ```{{execute}}
 
-Then you can modify the default playbook to deploy the continuous integration
-components in the Kubernetes cluster. As the NodePorts are in the 30000-32767
-range (default), you must change the default service ports as well.
-
+For the purpose of this scenario, you modify the default playbook to deploy the
+Continuous Integration components in the Kubernetes cluster.
 ```
 echo "      use_kubernetes: true" >> ansible/site.yml
+```{{execute}}
+
+We do modify a couple of configuration values due to Katacoda. At first the
+NodePorts are in the 30000-32767 range (default) which asks us to change all
+service ports:
+
+```
 echo "      jenkins_port: 30080" >> ansible/site.yml
 echo "      jenkins_jnlp_port: 30050" >> ansible/site.yml
 echo "      mongo_port: 30017" >> ansible/site.yml
@@ -22,11 +23,11 @@ echo "      postgres_port: 30032" >> ansible/site.yml
 echo "      minio_port: 30090" >> ansible/site.yml
 ```{{execute}}
 
-In this scenario, you do precise jenkins url and both external test database
+Then, you do precise jenkins url, both external test database
 and test artifact urls to make them reachable from your device. In this
 particular Katakoda setup, we must go through the network address translation
-to join the docker containers which asks to modify both internal test database
-and test artifact urls too:
+to join the docker containers which asks us to modify both internal test
+database and test artifact urls too:
 
 ```
 echo "      jenkins_url: https://[[HOST_SUBDOMAIN]]-30080-[[KATACODA_HOST]].environments.katacoda.com" >> ansible/site.yml
