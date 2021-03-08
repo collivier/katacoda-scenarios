@@ -14,7 +14,7 @@ install the cluster on your localhost via *kubernetes_deploy: true*.
 Lots of components commonly used for benchmarking testing (e.g.
 [Kibana](https://www.elastic.co/fr/kibana) and [Grafana](https://grafana.com/))
 are disabled by default. Be free to set *kibana_deploy: true* or
-*kibana_deploy: true* according to your needs.
+*grafana_deploy: true* according to your needs.
 
 There is a common misunderstanding that XtestingCI forces you to setup locally
 all the components. In fact, there is a clear separation between installation
