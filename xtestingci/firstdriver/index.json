@@ -6,6 +6,10 @@
   "details": {
     "steps": [
       {
+        "title": "Xtesting driver in a nutshell",
+        "text": "nutshell.md"
+      },
+      {
         "title": "Step 1",
         "text": "step1.md"
       },
