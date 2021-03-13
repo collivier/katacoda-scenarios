@@ -1,0 +1,38 @@
+{
+  "title": "All about proxies",
+  "description": "",
+  "difficulty": "Beginner",
+  "time": "20 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Docker behind enterprise proxy",
+        "text": "nutshell.md"
+      },
+      {
+        "title": "Install XtestingCI behind proxy",
+        "text": "install.md"
+      },
+      {
+        "title": "Run an offline test case (1)",
+        "text": "deploy.md"
+      },
+      {
+        "title": "Run an offline test case (2)",
+        "text": "play.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+      "uilayout": "terminal-terminal-split"
+  },
+  "backend": {
+    "imageid": "kubernetes-cluster:1.18"
+  }
+}

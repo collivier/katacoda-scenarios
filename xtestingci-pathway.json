@@ -26,6 +26,11 @@
       "course_id": "firstdriver",
       "title": "Write your own Xtesting driver (under construction)",
       "description": ""
+    },
+    {
+      "course_id": "proxy",
+      "title": "XtestingCI behind proxies (under construction)",
+      "description": ""
     }
   ]
 }
