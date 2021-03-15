@@ -28,6 +28,11 @@
       "description": ""
     },
     {
+      "course_id": "firstcd",
+      "title": "Continuous Development (under construction)",
+      "description": ""
+    },
+    {
       "course_id": "proxy",
       "title": "XtestingCI behind proxies (under construction)",
       "description": ""
