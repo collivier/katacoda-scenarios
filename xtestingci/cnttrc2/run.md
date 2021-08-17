@@ -38,7 +38,7 @@ echo "      testapi_ext_url: https://[[HOST_SUBDOMAIN]]-8000-[[KATACODA_HOST]].e
 Be free to have a look to all your local modifications:
 
 ```
-git diff --no-pager
+git --no-pager diff
 ```{{execute}}
 
 You can finally run the CNTT RC2 Elbrus playbook:
