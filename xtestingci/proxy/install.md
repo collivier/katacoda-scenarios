@@ -32,7 +32,7 @@ and all the mandatory Ansible collections:
 
 ```
 ansible-galaxy install collivier.xtesting
-ansible-galaxy collection install ansible.posix community.general community.grafana community.kubernetes community.docker community.postgresql
+ansible-galaxy collection install ansible.posix community.general community.grafana kubernetes.core community.docker community.postgresql
 ```{{execute HOST1}}
 
 You can now clone both Xtesting and XtestingCI repositories needed for this

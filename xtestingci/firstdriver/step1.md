@@ -5,7 +5,7 @@ curl -sS https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key ad
 
 ```
 ansible-galaxy install collivier.xtesting
-ansible-galaxy collection install ansible.posix community.general community.grafana community.kubernetes community.docker community.postgresql
+ansible-galaxy collection install ansible.posix community.general community.grafana kubernetes.core community.docker community.postgresql
 ```{{execute}}
 
 ```

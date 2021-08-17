@@ -22,7 +22,7 @@ and all the mandatory Ansible collections.
 
 ```
 ansible-galaxy install collivier.xtesting
-ansible-galaxy collection install ansible.posix community.general community.grafana community.kubernetes community.docker community.postgresql
+ansible-galaxy collection install ansible.posix community.general community.grafana kubernetes.core community.docker community.postgresql
 ```{{execute}}
 
 2 public keys are currently expired in all Katacoda images and then you do first
