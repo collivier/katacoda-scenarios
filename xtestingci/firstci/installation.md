@@ -1,8 +1,9 @@
-A public key is currently expired in all Katacoda images and then you do first
-update this apt key before anything else.
+2 public keys are currently expired in all Katacoda images and then you do first
+update this apt keys before anything else.
 
 ```
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+curl -sS https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
 ```{{execute}}
 
 XtestingCI is an Ansible role published in Ansible Galaxy and then asks for

@@ -43,12 +43,13 @@ git clone https://gerrit.opnfv.org/gerrit/functest-xtesting functest-xtesting-sr
 git clone https://github.com/collivier/ansible-role-xtesting.git
 ```{{execute HOST1}}
 
-A public key is currently expired in all Katacoda images and then you do update
-this apt key before running any package operation:
+2 public keys are currently expired in all Katacoda images and then you do first
+update this apt keys before running any package operation:
 
 ```
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
-```{{execute HOST1}}
+curl -sS https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
+```{{execute HOST1}}.
 
 You can now clear all previous proxy configuration as it will be set directly
 in your next playbooks:
