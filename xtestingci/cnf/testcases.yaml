@@ -1,0 +1,16 @@
+---
+tiers:
+  - name: envoy
+    testcases:
+      - case_name: privileged
+        project_name: katacoda
+        run:
+          name: cnf_testsuite
+          args:
+            tag: privileged
+      - case_name: microservice
+        project_name: katacoda
+        run:
+          name: cnf_testsuite
+          args:
+            tag: microservice

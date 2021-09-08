@@ -36,6 +36,11 @@
       "course_id": "proxy",
       "title": "XtestingCI behind proxies (under construction)",
       "description": ""
+    },
+    {
+      "course_id": "cnf",
+      "title": "CNF Test Suite",
+      "description": ""
     }
   ]
 }
