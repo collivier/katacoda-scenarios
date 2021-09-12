@@ -17,5 +17,5 @@ offer a REST API to execute the test cases and to get their results, the
 related Xtesting drivers can be written in a couple of hours. But at the end of
 the day, the benefits for the integrators are huge.
 
-This scenario basically hightlight all the steps starting from a new driver
+This scenario basically hightlights all the steps starting from a new driver
 calling [OpenWeatherMap](https://openweathermap.org/) API.

@@ -10,12 +10,20 @@
         "text": "nutshell.md"
       },
       {
-        "title": "Step 1",
-        "text": "step1.md"
+        "title": "Write your driver",
+        "text": "weather.md"
       },
       {
-        "title": "Step 2",
-        "text": "step2.md"
+        "title": "Package your driver",
+        "text": "package.md"
+      },
+      {
+        "title": "Deploy your CI toolchain",
+        "text": "install.md"
+      },
+      {
+        "title": "Play",
+        "text": "play.md"
       }
     ],
     "intro": {
