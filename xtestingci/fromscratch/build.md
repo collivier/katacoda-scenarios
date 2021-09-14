@@ -6,7 +6,7 @@ also define *helloworld* as project name and *hello* as case name.
 The second and last requirement about Docker is also easily achievable as
 highlighted by ```ansible-role-xtesting/tests/hello/Dockerfile```{{open}}.
 It basically inherits from the official Xtesting Docker image
-(it's alpine:13 + xtesting python package) and copies both *hello.robot* and
+(it's alpine:3.14 + xtesting python package) and copies both *hello.robot* and
 your *testcases.yaml*.
 
 You can now build your own testing container:
