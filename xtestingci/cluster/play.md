@@ -1,11 +1,11 @@
+You can identify yourself as admin to be allowed to trigger a build:
+- login: admin
+- password: admin
+
 You follow here the same instructions as
 [Deploy your first Continuous Integration toolchain](https://www.katacoda.com/ollivier/courses/xtestingci/firstci).
 You still find your main job, xtesting-latest-daily, via the Jenkins view named
 xtesting.
-
-Then you can identify yourself as admin to be allowed to trigger a build:
-- login: admin
-- password: admin
 
 You're ready to start a new build of xtesting-latest-daily without changing the
 default parameters. Comparing with the previous Katacoda scenario, all runners

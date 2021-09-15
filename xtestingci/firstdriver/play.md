@@ -1,9 +1,9 @@
-The default Jenkins view lists all the Jenkins jobs. You can easily find your
-main job, weather-latest-daily, via the Jenkins view named weather.
-
-Then you can identify yourself as admin to be allowed to trigger a build:
+You can identify yourself as admin to be allowed to trigger a build:
 - login: admin
 - password: admin
+
+The default Jenkins view lists all the Jenkins jobs. You can easily find your
+main job, weather-latest-daily, via the Jenkins view named weather.
 
 You're ready to start a new build of weather-latest-daily without changing
 the default parameters.
