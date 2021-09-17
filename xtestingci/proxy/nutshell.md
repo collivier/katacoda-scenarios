@@ -1,12 +1,12 @@
-The enterprise proxies usually fail many users and docker is particulary
+The enterprise proxies usually fail many users and Docker is particulary
 misleading in this case due to its design and due to the different container
 operations.
 
-At first, the docker client sends all operations to the docker daemon generally
-via the docker unix socket. Then you cannot leverage the classical and simple
+At first, the Docker client sends all operations to the Docker daemon generally
+via the Docker Unix socket. Then you cannot leverage the classical and simple
 environment variable configuration (e.g. http_proxy, https_proxy, etc.) where
-you call the docker client to pull a new docker image. The proxy configuration
-must be rather applied to the docker daemon as described in
+you call the Docker client to pull a new Docker image. The proxy configuration
+must be rather applied to the Docker daemon as described in
 [Control Docker with systemd](https://docs.docker.com/config/daemon/systemd/).
 
 Then you must set the proxy configuration when building your containers

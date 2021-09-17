@@ -20,6 +20,18 @@
       {
         "title": "Run an offline test case (2)",
         "text": "play.md"
+      },
+      {
+        "title": "Run an online test case (1)",
+        "text": "hand.md"
+      },
+      {
+        "title": "Run an online test case (2)",
+        "text": "playbook.md"
+      },
+      {
+        "title": "Run an online test case (3)",
+        "text": "jenkins.md"
       }
     ],
     "intro": {

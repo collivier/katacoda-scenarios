@@ -6,7 +6,7 @@ suites without diving into
 which would require additional skills.
 
 In the same mindset, XtestingCI also generates all the jobs needed to package
-automatically your testcases in docker containers from a git repository. All
+automatically your test cases in docker containers from a git repository. All
 these jobs can scan your deliverables to detect any vulnerability and even run
 the patchset verification before merge (a.k.a Gates).
 

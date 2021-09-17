@@ -15,7 +15,7 @@ ansible-galaxy collection install ansible.posix community.general community.graf
 ```{{execute}}
 
 ```ansible-role-xtesting/tests/weather/site.yml```{{open}} targets
-all 4 testcases from your own container *127.0.0.1:5000/weather*. It's worth
+all 4 test cases from your own container *127.0.0.1:5000/weather*. It's worth
 mentioning that you also ask a private Docker registry via *registry_deploy* to
 host your new container.
 

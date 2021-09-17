@@ -26,7 +26,7 @@ echo "      minio_port: 30090" >> ansible/site.yml
 Then, you do precise jenkins url, both external test database
 and test artifact urls to make them reachable from your device. In this
 particular Katakoda setup, we must go through the network address translation
-to join the docker containers which asks us to modify both internal test
+to join the Docker containers which asks us to modify both internal test
 database and test artifact urls too:
 
 ```

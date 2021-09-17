@@ -9,8 +9,8 @@ xtesting.
 
 You're ready to start a new build of xtesting-latest-daily without changing the
 default parameters. Comparing with the previous Katacoda scenario, all runners
-are here dynamic which allow skipping the docker cache management (i.e. clean
-and pull any previous docker image).
+are here dynamic which allow skipping the Docker cache management (i.e. clean
+and pull any previous Docker image).
 
 The samples are all executed after 1 minute and all the test outputs are
 accessible via the console icons. If you open the

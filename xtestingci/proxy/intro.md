@@ -1,10 +1,6 @@
-In this scenario, you will smoothly automate a simple Robot Framework script
-starting from scratch.
+In this scenario, you're configuring Docker and XtestingCI to pass
+enterprise proxies. It fully covers the 3 main container operations: build,
+pull and run.
 
-It's more or less the first demo played in
-[Open Networking Summit](https://sched.co/EF9Z) highlighting the
-[simple](https://www.sdxcentral.com/articles/news/opnfvs-6th-release-brings-testing-capabilities-that-orange-is-already-using/2018/05/)
-ONAP test case integration.
-
-More XtestingCI-based playbooks can be found at
-https://github.com/collivier/ansible-role-xtesting
+[Squid](http://www.squid-cache.org/), the well-known opensource caching proxy,
+is selected for the needs of this scenario.

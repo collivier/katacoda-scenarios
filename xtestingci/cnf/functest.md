@@ -3,7 +3,7 @@ its test results in the common test result database and to share its test
 reports in a common artifact repository (see
 [Deploy your first Continuous Integration toolchain](https://www.katacoda.com/ollivier/courses/xtestingci/firstci)).
 You can easily leverage the upstream container to verify any CNF by overriding
-the default Xtesting testcase description and the CNF TestSuite configuration
+the default Xtesting test case description and the CNF TestSuite configuration
 file.
 
 Please review Envoy's cnf-testsuite.yml as proposed by CNF TestSuite.

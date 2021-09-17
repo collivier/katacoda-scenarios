@@ -1,5 +1,5 @@
 XtestingCI only asks for an Ansible playbook which is mostly the test case list
-you want to execute (docker and test case names). It could be any test case
+you want to execute (Docker and test case names). It could be any test case
 leveraging Xtesting such as the ones offered by OPNFV Functest, the collection
 of state-of-the-art virtual infrastructure test suites.
 

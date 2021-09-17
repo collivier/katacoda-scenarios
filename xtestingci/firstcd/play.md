@@ -17,7 +17,7 @@ You should see that the container was successfully pushed at the end.
 You're ready to start a new build of helloworld-latest-daily without changing
 the default parameters (note you can click on helloworld tab to find the job).
 
-Our testcase is executed after 1 minute If you open
+Your test case is executed after 1 minute If you open
 helloworld-127.0.0.1-hello-latest-hello-run console, you will first read:
 - the test output highlighting its status
 - a link to the test database where its results are stored

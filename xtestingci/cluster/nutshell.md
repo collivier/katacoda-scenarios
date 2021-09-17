@@ -1,4 +1,4 @@
-By default XtestingCI deploys all the mandatory components in docker containers
+By default XtestingCI deploys all the mandatory components in Docker containers
 running on your localhost. It fits very well all test campaigns such as
 [CNTT Kubernetes Based Reference Conformance](https://www.katacoda.com/ollivier/courses/xtestingci/cnttrc2).
 

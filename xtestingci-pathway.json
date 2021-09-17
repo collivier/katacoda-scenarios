@@ -13,11 +13,6 @@
       "description": ""
     },
     {
-      "course_id": "cluster",
-      "title": "Deploy the toolchain in your Kubernetes cluster",
-      "description": ""
-    },
-    {
       "course_id": "fromscratch",
       "title": "Automate your first test case",
       "description": ""
@@ -34,7 +29,12 @@
     },
     {
       "course_id": "proxy",
-      "title": "XtestingCI behind proxies (under construction)",
+      "title": "XtestingCI behind proxies",
+      "description": ""
+    },
+    {
+      "course_id": "cluster",
+      "title": "Deploy the toolchain in your Kubernetes cluster",
       "description": ""
     },
     {
