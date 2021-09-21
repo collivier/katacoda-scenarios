@@ -33,6 +33,11 @@
       "description": ""
     },
     {
+      "course_id": "distributed",
+      "title": "Distribute your Continuous Integration toolchain",
+      "description": ""
+    },
+    {
       "course_id": "cluster",
       "title": "Deploy the toolchain in your Kubernetes cluster",
       "description": ""

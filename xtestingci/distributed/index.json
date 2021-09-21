@@ -1,0 +1,46 @@
+{
+  "title": "Distribute your Continuous Integration toolchain",
+  "description": "",
+  "difficulty": "Beginner",
+  "time": "15 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "XtestingCI design in a nutshell",
+        "text": "nutshell.md"
+      },
+      {
+        "title": "Installation",
+        "text": "installation.md"
+      },
+      {
+        "title": "Deployment",
+        "text": "deployment.md"
+      },
+      {
+        "title": "Play",
+        "text": "play.md"
+      },
+      {
+        "title": "Agent",
+        "text": "agent.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+      "showdashboard": true,
+      "dashboards": [
+          {"name": "Jenkins", "port": 8080}
+        ],
+      "uilayout": "terminal-iframe"
+  },
+  "backend": {
+    "imageid": "kubernetes-cluster:1.18"
+  }
+}
