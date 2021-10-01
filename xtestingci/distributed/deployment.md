@@ -6,8 +6,8 @@ password is defined.
 
 ```
 cat << EOF > inventory
-[[HOST_IP]]
-[[HOST2_IP]]
+[[HOST_IP]] ansible_connection=ssh
+[[HOST2_IP]] ansible_connection=ssh
 EOF
 ```{{execute}}
 

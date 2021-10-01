@@ -15,7 +15,7 @@ Ansible available in your environment. The version installed here is too old
 (<2.9) and you could simply update it via pip:
 
 ```
-apt-get remove --purge ansible -y && pip2 install ansible
+apt-get remove --purge ansible -y && pip3 install ansible
 ```{{execute}}
 
 The next commands simply download XtestingCI and all the mandatory Ansible

@@ -25,4 +25,4 @@ console.
 
 You may also access the status page highlighting the overall status of your
 system under tests (SUT). To do so, simply click on '+' closed to the Jenkins
-tab, then 'Select port to view on Host 1' and finally set 8001 as display port.
+tab, then 'Select port to view on Host 2' and finally set 8001 as display port.
