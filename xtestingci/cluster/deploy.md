@@ -1,9 +1,11 @@
 2 public keys are currently expired in all Katacoda images and then you do first
-update this apt keys before anything else.
+update this apt keys before anything else. ca-certificates must be updated as
+well.
 
 ```
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 curl -sS https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
+apt-get update ; apt-get install ca-certificates -y
 ```{{execute}}
 
 For the purpose of this scenario, you start by installing a 2 node cluster

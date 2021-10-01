@@ -44,11 +44,13 @@ git clone https://github.com/collivier/ansible-role-xtesting.git
 ```{{execute HOST2}}
 
 2 public keys are currently expired in all Katacoda images and then you do first
-update this apt keys before running any package operation:
+update this apt keys before running any package operation. ca-certificates must
+be updated as well.
 
 ```
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 curl -sS https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
+apt-get update ; apt-get install ca-certificates -y
 ```{{execute HOST2}}
 
 You can now clear all previous proxy configuration as it will be set directly
